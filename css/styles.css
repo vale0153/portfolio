@@ -46,3 +46,85 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/**************************************************
+                    Defaults
+**************************************************/
+
+html{
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#78BDE1;
+}
+
+.container{
+    width:1000px;
+    margin:0 auto 10px;
+    background: #AEE4EC;
+    height: 160vh;
+}
+
+/**************************************************
+                    Header
+**************************************************/
+h1{
+    
+    width:100%;
+  
+    text-align: center;
+    font-size:3.5rem;
+    background-color: rgba(34, 34, 34, 0.555);
+    color: white;
+}
+
+/*h2{
+    font-size:2.5rem;
+    background-color: rgba(34, 34, 34, 0.555);
+    color: white;
+    text-align: center;
+}*/
+
+.container{
+    
+  text-align: center;
+
+    color: white;
+    width: 98.45%;
+    padding: 10px;
+    top:20px;
+    
+}
+
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+/**************************************************
+                    Nav
+**************************************************/
+ul{
+    text-align:center;
+}
+
+li{
+    display:inline-block;
+    width:32%;
+    border-right:1px solid darkcyan;
+    border-top:1px solid darkcyan;
+    border-left:1px solid darkcyan;
+    border-bottom:1px solid darkcyan;
+    padding: 10px 0;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    font-size:1.4rem;
+    font-weight:bold;
+}
+
