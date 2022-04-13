@@ -78,24 +78,40 @@ h1{
     color: white;
 }
 
-/*h2{
+h2{
     font-size:2.5rem;
     background-color: rgba(34, 34, 34, 0.555);
     color: white;
     text-align: center;
-}*/
+}
 
-.container{
+h3{
+    font-size:1.5rem;
+    background-color: rgba(34, 34, 34, 0.555);
+    color: white;
+    text-align: center;
+}
+
+.container {
     
   text-align: center;
 
     color: white;
     width: 98.45%;
-    padding: 10px;
-    top:20px;
+    margin:50px;
+    padding: 20px;
+    bottom:20px;
+  
     
 }
 
+.slogan{
+    color: black;
+    width: 98.45%;
+    padding: 20px;
+    bottom:20px;
+    
+}
 
 .home{
     display: flex;
@@ -103,6 +119,16 @@ h1{
     justify-content: center;
     
 }
+
+#logo{
+  width:10%;    
+}
+
+#whatwelove{
+    width:30%;    
+    margin:10px;
+    bottom:20%;
+  }
 
 /**************************************************
                     Nav
@@ -113,12 +139,12 @@ ul{
 
 li{
     display:inline-block;
-    width:32%;
+    width:20%;
     border-right:1px solid darkcyan;
     border-top:1px solid darkcyan;
     border-left:1px solid darkcyan;
     border-bottom:1px solid darkcyan;
-    padding: 10px 0;
+    padding: 7px 0;
 }
 
 a{
@@ -128,3 +154,47 @@ a{
     font-weight:bold;
 }
 
+/**************************************************
+                    Form
+**************************************************/
+.formbox{
+    border:1px solid black;
+    padding:2rem 1rem 1rem;
+    font-size:1.2rem;
+}
+
+.texts label, .texts input, .texts textarea{
+    display:block;
+    width: calc(100% - 0.75%);
+    font-size:1.2rem; /* form elements do not inherit font-size, as they have a default set */
+}
+
+.texts label{
+    margin-bottom:30px;
+    margin-top: 30px;
+    background-color: rgba(34, 34, 34, 0.555);
+}
+
+.texts input{
+    margin-bottom:1.4rem;
+}
+
+.texts textarea{
+    height:6em;
+}
+
+h4{
+    font-size:1.5rem;
+    margin:1em 0;
+}
+
+.radios{
+    margin-bottom:1rem;
+}
+
+#submit{
+    background:rgba(0,0,0,0);
+    padding:12px;
+    font-size:12px;
+    border:1px solid black;
+}
