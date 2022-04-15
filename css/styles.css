@@ -120,6 +120,14 @@ h3{
     
 }
 
+.home h2{
+    font-size:2.5rem;
+    background-color: rgba(34, 34, 34, 0.555);
+    color: white;
+    text-align: center;
+    padding:150px;
+}
+
 #logo{
   width:10%;    
 }
@@ -129,6 +137,71 @@ h3{
     margin:10px;
     bottom:20%;
   }
+
+  /**************************************************
+                    Products
+**************************************************/
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+}
+
+.product1 {
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+}
+  
+.product1 h2 {
+    margin: 0;
+    border-bottom: 4px solid #78BDE1;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+  
+.product1 button {
+    text-decoration: none;
+    background-color: #78BDE1;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    outline: none;
+}
+  
+.icon {
+    font-size: 4rem;
+  }
+  
+  
+.product1 {
+    display: flex;
+    flex-direction: column;
+}
+  
+.icon{
+    order: -1;
+    align-self: center;
+    width:100%;
+}
+  
+.product1 p {
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+} 
+
+#series{
+    width:50%;
+}
+
+
 
 /**************************************************
                     Nav
