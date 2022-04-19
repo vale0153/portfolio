@@ -62,7 +62,7 @@ html{
     width:1000px;
     margin:0 auto 10px;
     background: #AEE4EC;
-    height: 160vh;
+    height: 180vh;
 }
 
 /**************************************************
@@ -303,4 +303,29 @@ h4{
     padding:10px 0;
 }
 
+/**************************************************
+                    Desktop Mockup- Media Queries
+**************************************************/
 
+@media screen and (min-width: 760px){
+
+    .container{
+        margin: 0 auto;
+        width: 80%;
+        max-width: 1210px;
+    }
+
+}
+
+@media screen and (min-width: 760px){
+
+.texts input {
+    margin-bottom: 1.4rem;
+}
+.texts label, .texts input, .texts textarea {
+    display: block;
+    width: calc(100% - 0.75%);
+    max-width: 1200px;
+    font-size: 1.2rem;
+}
+}
